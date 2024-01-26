@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UscEvent"
+    android:background="@drawable/usc_attractions">
+
+    <!-- Your existing layout components here -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Your existing layout components go here -->
+
+        <!-- Vertical LinearLayout for the 8 CardViews -->
+        <LinearLayout
+            android:id="@+id/cardViewContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="148dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <!-- CardView 1 -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="8dp">
+
+                <View
+                    android:layout_width="129dp"
+                    android:layout_height="85dp"
+                    android:layout_gravity="top"
+                    android:background="#FF5733" />
+
+                <!-- Your CardView 1 content goes here -->
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- CardView 2 -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="8dp">
+
+                <View
+                    android:layout_width="129dp"
+                    android:layout_height="85dp"
+                    android:layout_gravity="top"
+                    android:background="#FF5733" />
+
+                <!-- Your CardView 2 content goes here -->
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Add more CardViews here as needed -->
+
+            <!-- TextView to display event data -->
+            <TextView
+                android:id="@+id/eventTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Event Data will be displayed here"
+                app:layout_constraintTop_toBottomOf="@+id/cardViewContainer"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,127 @@
+<!-- activity_main.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Event"
+    android:background="@drawable/alg_background">
+
+    <!-- Add other UI elements (e.g., RecyclerView for events) here -->
+
+    <TextView
+        android:id="@+id/textViewLA"
+        android:layout_width="wrap_content"
+        android:layout_height="71dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="61dp"
+        android:fontFamily="@font/inknut_antiqua_bold"
+        android:onClick="onFilterClick"
+        android:text="@string/LA"
+        android:textColor="@color/colorSelected"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/textViewUSC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="115dp"
+        android:fontFamily="@font/inknut_antiqua_bold"
+        android:onClick="onFilterClick"
+        android:text="@string/USC"
+        android:textColor="@color/colorUnselected"
+        android:textSize="28sp" />
+
+
+    <TextView
+        android:id="@+id/textViewSignOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_centerVertical="true"
+        android:fontFamily="sans-serif"
+        android:text="@string/sign_out"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <!-- Button to finalize the plan -->
+
+    <EditText
+        android:id="@+id/days_box"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@id/textViewSignOut"
+        android:layout_marginStart="37dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="445dp"
+        android:layout_toStartOf="@id/textViewSignOut"
+        android:background="@drawable/username_edittext"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="Enter day you want to See"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textColorHint="@color/hint_text_inactive"
+        android:textSize="14sp" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="524dp"
+        android:layout_above="@+id/finalizetrip"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="23dp"
+        android:contentDescription="@string/scrollable_content_description"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Vertical LinearLayout for the 8 CardViews -->
+        <LinearLayout
+            android:id="@+id/cardViewContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </LinearLayout>
+    </ScrollView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/finalizetrip"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/rounded_button"
+        android:color="@color/colorSelected"
+        android:text="Finalize Trip"
+        android:fontFamily="sans-serif-medium"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+</RelativeLayout>

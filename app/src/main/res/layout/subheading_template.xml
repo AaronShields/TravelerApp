@@ -1,0 +1,13 @@
+<!-- res/layout/subheading_template.xml -->
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/subheadingTextView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="18sp"
+    android:fontFamily="sans-serif-medium"
+    android:paddingStart="8dp"
+    android:paddingEnd="8dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="8dp"
+    android:textColor="@color/almost_black"
+    />

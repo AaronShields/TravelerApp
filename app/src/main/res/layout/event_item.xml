@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/eventName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event Name"
+        android:textStyle="bold"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/eventAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event Address"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/eventFee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event Fee"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/eventHours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event Hours"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/eventTravelTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Travel Time"
+        android:textSize="14sp"/>
+</LinearLayout>

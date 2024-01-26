@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">my_traveler_app</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="email_input">"Enter your email here"</string>
+    <string name="password_input">"Enter your password here"</string>
+    <string name="forgot_password_link">"Forgot your password?"</string>
+    <string name="title_activity_single_day">single_day</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="failed_login">Invalid username or password</string>
+    <string name="select_length">Select Tour Length</string>
+    <string name="selected_events">Selected Events</string>
+
+    <string name="LA">LA</string>
+    <string name="USC">USC</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="finalize_plan_button">Finalize Plan</string>
+
+    <string name="scrollable_content_description">Scrollable view for the events</string>
+    <string name="image_content_description">Picture of the location</string>
+
+</resources>

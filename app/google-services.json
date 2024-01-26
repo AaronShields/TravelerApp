@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "11348519778",
+    "firebase_url": "https://planmyday-972e2-default-rtdb.firebaseio.com",
+    "project_id": "planmyday-972e2",
+    "storage_bucket": "planmyday-972e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11348519778:android:d64e82df49f6e9e71e5a3b",
+        "android_client_info": {
+          "package_name": "com.example.my_traveler_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwUkky61d8wEypbNQy--3b27s70tT7iUk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

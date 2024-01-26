@@ -1,0 +1,141 @@
+{
+  "events": {
+    "LosAngeles": {
+      "Angel’s Flight": {
+        "address": "350 S Grand Ave, Los Angeles, CA 90071",
+        "fee": "$1",
+        "hours": "7am - 10pm",
+        "travelTime": "15 min"
+      },
+      "Chinese Theater": {
+        "address": "6925 Hollywood Blvd, Hollywood, CA 90028",
+        "fee": "$38",
+        "hours": "Varies",
+        "travelTime": "27 min"
+      },
+      "Getty Museum": {
+        "address": "1200 Getty Center Dr, Los Angeles, CA 90049",
+        "fee": "$89",
+        "hours": "10am - 8pm",
+        "travelTime": "30 min"
+      },
+      "Grand Central Market": {
+        "address": "317 S Broadway, Los Angeles, CA 90013",
+        "fee": "Free",
+        "hours": "8am - 9pm",
+        "travelTime": "12 min"
+      },
+      "Griffith Park Observatory": {
+        "address": "2800 E Observatory Rd, Los Angeles, CA 90027",
+        "fee": "Free",
+        "hours": "12pm - 10pm",
+        "travelTime": "38 min"
+      },
+      "Hollywood Sign": {
+        "address": "Hollywood Sign, Los Angeles, CA 90068",
+        "fee": "Free",
+        "hours": "24/7",
+        "travelTime": "12 min"
+      },
+      "Hollywood Walk of Fame": {
+        "address": "Hollywood Walk of Fame, 6901 Hollywood Blvd, Los Angeles, CA 90028",
+        "fee": "Free",
+        "hours": "24/7",
+        "travelTime": "27 min"
+      },
+      "La Brea Tar Pits and Museum": {
+        "address": "La Brea Tar Pits Museum Parking, Unnamed Road, Los Angeles, CA 90036",
+        "fee": "$144",
+        "hours": "9am - 5pm",
+        "travelTime": "24 min"
+      },
+      "Santa Monica Pier": {
+        "address": "Santa Monica Pier, 200 Santa Monica Pier, Santa Monica, CA 90401",
+        "fee": "Free",
+        "hours": "24/7",
+        "travelTime": "33 min"
+      },
+      "The Broad": {
+        "address": "221 S Grand Ave, Los Angeles, CA 90012",
+        "fee": "Free",
+        "hours": "11am - 5pm",
+        "travelTime": "13 min"
+      },
+      "Universal Studios Hollywood": {
+        "address": "100 Universal City Plaza, Universal City, CA 91608",
+        "fee": "$109",
+        "hours": "Varies",
+        "travelTime": "8 min"
+      },
+      "Venice Beach": {
+        "address": "1800 Ocean Front Walk, Venice, CA 90291",
+        "fee": "Free",
+        "hours": "Varies",
+        "travelTime": "10 min"
+      }
+    },
+    "USC": {
+      "Brittingham Intramural Field": {
+        "address": "3506 McClintock Ave, Los Angeles, CA 90089",
+        "fee": "Free for students",
+        "hours": "24/7 for students",
+        "travelTime": "10 min"
+      },
+      "Doheny Library": {
+        "address": "3550 Trousdale Pkwy, Los Angeles, CA 90089",
+        "fee": "Free",
+        "hours": "9am - 10pm",
+        "travelTime": "11 min"
+      },
+      "Fertitta Hall": {
+        "address": "Registration Building, 610 Childs Way, Los Angeles, CA 90089",
+        "fee": "Free",
+        "hours": "7am - 8pm",
+        "travelTime": "8 min"
+      },
+      "Fisher Museum of Art": {
+        "address": "823 W Exposition Blvd, Los Angeles, CA 90089",
+        "fee": "Free",
+        "hours": "12pm - 5pm",
+        "travelTime": "9 min"
+      },
+      "Lyon Center": {
+        "address": "1026 W 34th St, Los Angeles, CA 90089",
+        "fee": "Free for students",
+        "hours": "6am - 11pm",
+        "travelTime": "15 min"
+      },
+      "McCarthy Quad": {
+        "address": "3551 Trousdale Pkwy, Los Angeles, CA 90089",
+        "fee": "Free",
+        "hours": "24/7 for students",
+        "travelTime": "12 min"
+      },
+      "Ronald Tutor Center": {
+        "address": "3607 Trousdale Pkwy, Los Angeles, CA 90089",
+        "fee": "Free",
+        "hours": "7am - 12am",
+        "travelTime": "14 min"
+      },
+      "Tommy Trojan": {
+        "address": "34.02051°N 118.28563°W",
+        "fee": "Free",
+        "hours": "24/7 for students",
+        "travelTime": "13 min"
+      },
+      "Village Hecuba Statue": {
+        "address": "3201 Hoover St, Los Angeles, CA 90007",
+        "fee": "Free",
+        "hours": "24/7 for students",
+        "travelTime": "10 min"
+      }
+    }
+  },
+  "users": {
+    "userID1": {
+      "email": "guest@usc.edu",
+      "password": "FightOn!",
+      "user_name": "guest"
+    }
+  }
+}
