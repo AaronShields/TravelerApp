@@ -3,9 +3,6 @@
 
 Welcome to Traveler - A Plan My Day App 
 
-This is a user guide for Tooba Khan:
-
-
 Overview:
 - This app works on Android Studio Giraffe Version, please do not try to run it on Chipmunk (the firebase system does not work with that version at all)
 We've initialized a username and password for you to use since you cannot directly access our firebase system: Username: guest@usc.edu Password: FightOn!
@@ -30,7 +27,6 @@ Information for using the app
  
 Some warnings: 
 - Going back and forth between Event pages and Route Planning pages and adding and removing checkbox events can cause the algorithm for calculating time to act up
-- The algorithm for start time always begins at 0:00 because I wanted to initialize it for the start at every day
 - Time is written in military time when it is displayed. 
 - Elapsed time takes into account that the user might want to spread things out during the day.
 - For example the chinese theater opens at 7:00, user spends 30 minutes there, adds 27 for travel to theater, so end time is 7:57. 
